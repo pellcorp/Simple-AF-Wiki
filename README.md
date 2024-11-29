@@ -1,4 +1,4 @@
-# Wiki for Simple AF
+# Simple AF Wiki
 
 ## About
 
