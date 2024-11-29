@@ -28,6 +28,6 @@ Currently, Simple AF only works on the following K-series printers:
 ## Installation Wiki 
 <b>  WE CAN NOT BE RESPONSIBLE FOR DAMAGE TO YOUR PRINTER - INSTALLING CUSTOM FIRMWARE IS AT YOUR OWN RISK!</b>
 
-You can find guides to install Simple AF for your probes here.
+You can find guides to install Simple AF for your probes [here](https://pellcorp.github.io/Simple-AF-Wiki/)
 
 <br />
