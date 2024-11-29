@@ -1,4 +1,4 @@
-# Simple AF Wiki
+# Simple AF: Creality K Series Alternative Firmware Wiki
 
 ## About
 
