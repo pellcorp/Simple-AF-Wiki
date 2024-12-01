@@ -9,6 +9,8 @@
     --md-footer-bg-color--dark: #1f2025;
     --md-typeset-color:     #000;
     --md-typeset-a-color:   #000;
+    /*--md-code-fg-color:     #fff;*/
+    --md-code-bg-color:     #e3e3e5;
 }
 
 /* Dark mode */
@@ -22,6 +24,8 @@
     --md-footer-bg-color--dark: #121212;
     --md-typeset-color:     #fff;
     --md-typeset-a-color:   #fff;
+    /*--md-code-fg-color:     #fff;*/
+    --md-code-bg-color:     #292929;
 }
 
 /* Hovering Links */
@@ -167,15 +171,22 @@ html body {
 }
 
 .md-typeset hr {
-    margin: 0;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
 }
 
 .md-typeset code {
-    background-color: #448aff1a;
+    border-radius: 5px;
+    padding:3px;
 }
 
 .md-typeset pre>code {
-    padding-right: 3em;
+    
 }
 
 
