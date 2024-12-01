@@ -8,6 +8,7 @@
     --md-footer-bg-color:   #f6f6f9;
     --md-footer-bg-color--dark: #1f2025;
     --md-typeset-color:     #000;
+    --md-typeset-a-color:   #3a8def;
 }
 
 /* Dark mode */
@@ -20,6 +21,15 @@
     --md-footer-bg-color:   #202020;
     --md-footer-bg-color--dark: #121212;
     --md-typeset-color:     #fff;
+    --md-typeset-a-color:   #3a8def;
+}
+
+/* Hovering Links */
+[data-md-color-scheme="default"] .md-typeset a:hover {
+    color:#000;
+}
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+    color:#fff;
 }
 
 /* Sidebar nav background */
