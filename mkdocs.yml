@@ -15,7 +15,7 @@ copyright: Name Here &copy; All rights reserved
 theme:
   name: material
   language: en
-  favicon: images/favicon.png
+  favicon: assets/images/favicon.png
   icon:
     logo: material/alpha-s
   

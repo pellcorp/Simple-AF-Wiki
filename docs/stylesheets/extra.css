@@ -8,7 +8,7 @@
     --md-footer-bg-color:   #f6f6f9;
     --md-footer-bg-color--dark: #1f2025;
     --md-typeset-color:     #000;
-    --md-typeset-a-color:   #3a8def;
+    --md-typeset-a-color:   #000;
 }
 
 /* Dark mode */
@@ -21,7 +21,7 @@
     --md-footer-bg-color:   #202020;
     --md-footer-bg-color--dark: #121212;
     --md-typeset-color:     #fff;
-    --md-typeset-a-color:   #3a8def;
+    --md-typeset-a-color:   #fff;
 }
 
 /* Hovering Links */
@@ -94,19 +94,76 @@
     display:none;
 }
 
-.md-typeset h1 {
-    color: #227fe3;
+/* -----------------------------------------
+
+    TYPESET STYLING
+
+-------------------------------------------*/
+@import url(//fonts.googleapis.com/css2?family=Montserrat);
+
+html body {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+.md-content__inner p {
+    font-weight: normal;
+}
+
+.md-content__inner a {
+    border-bottom: 1px solid #178fff;
+}
+
+.md-content__inner a:hover {
+    border-bottom: 2px solid #178fff;
+}
+
+.md-typeset h1, .md-typeset  h2, .md-typeset  h3, .md-typeset  h4, .md-typeset  h5, .md-typeset  h6 {
+    margin-left: 0;
+    margin-right: 0;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.md-typeset h1 {
+    display: block;
+    font-size: 2em;
+    margin:0.32em 0;
+    text-transform: uppercase;
 }
 
 .md-typeset h2 {
-    color: var(--md-default-fg-color--light);
-   	font-weight: bold;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+
+.md-typeset h3 {
+   	display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .md-typeset h4 {
-    color: var(--md-default-fg-color--light);
-   	font-weight: bold;
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+
+.md-typeset h5 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+}
+
+.md-typeset h6 {
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
 }
 
 .md-typeset hr {
@@ -120,3 +177,5 @@
 .md-typeset pre>code {
     padding-right: 3em;
 }
+
+
