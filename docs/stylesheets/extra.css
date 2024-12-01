@@ -1,0 +1,110 @@
+/* Light mode */
+:root {
+    --md-primary-fg-color:  #2e343b;
+    --md-primary-bg-color:  #fff;
+    --md-accent-fg-color:   #3a8def;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"]{
+    --md-primary-fg-color:  #2e343b;
+    --md-primary-bg-color:  #fff;
+    --md-accent-fg-color:   #3a8def;
+}
+
+/* Sidebar nav background */
+.md-sidebar__inner {
+    
+}
+
+/* Nav text color */
+[data-md-color-scheme="default"] .md-nav__link {
+    color:#636f7e;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link {
+    color: #616a74;
+}
+
+/* Current selected item */
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link--active {
+    background: #f4f6f9;
+    border-radius:4px;
+    font-weight: bold;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item--active >  .md-nav__link--active {
+    background: #2e343b;
+    border-radius:4px;
+    font-weight: bold;
+}
+
+/* nav list items */
+[dir=ltr] .md-nav--primary .md-nav__list {
+    padding-left:0px;
+}
+.md-nav__list .md-nav__link {
+    padding:4px 8px;
+}
+
+/* nav item titles */
+[data-md-color-scheme="default"] .md-nav__item--section>label>span {
+    color:#2f323a;
+}
+[data-md-color-scheme="slate"] .md-nav__item--section>label>span {
+    color:#fff;
+}
+.md-nav--primary .md-nav__list .md-nav__list {
+    padding-left:12px;
+}
+.md-nav__item {
+    margin:none;
+}
+
+.md-nav__link {
+    padding:10px 0px;
+}
+
+.md-nav--primary .md-nav__title {
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    background: none;
+    display:none;
+}
+
+.md-typeset mark {
+    background-color: #5ca5f573;
+}
+
+
+.md-nav__item--section>.md-nav__link[for] {
+    color: #227fe3;
+}
+
+.md-typeset h1 {
+    color: #227fe3;
+    font-weight: bold;
+}
+
+.md-typeset h2 {
+    color: var(--md-default-fg-color--light);
+   	font-weight: bold;
+}
+
+.md-typeset h4 {
+    color: var(--md-default-fg-color--light);
+   	font-weight: bold;
+}
+
+.md-typeset hr {
+    margin: 0;
+}
+
+.md-typeset code {
+    background-color: #448aff1a;
+}
+
+.md-typeset pre>code {
+    padding-right: 3em;
+}
