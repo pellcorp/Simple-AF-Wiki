@@ -7,6 +7,8 @@ hide:
 
 # Simple AF: Creality K Series Alternative Firmware Wiki
 
+Simple test
+
 The Simple AF Firmware is an alternative firmware designed to allow you to control your K-series printer using "Vanilla" Klipper with alternative ABL probes.
 Simple AF replaces the Creality G-Code and interface meaning you can no longer use the Creality Slicer and Creality Cloud natively.
 
