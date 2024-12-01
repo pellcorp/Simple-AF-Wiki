@@ -120,7 +120,7 @@ nav:
       - BTT Eddy: installation/probes/btteddy.md
       - Microprobe: installation/probes/microprobe.md
       - BLTouch, CRTouch & 3DTouch: installation/probes/bltouch.md
-    - Configuration / Use: installaton/configurations.md
+    - Configuration / Use: installation/configurations.md
     - Troubleshooting: installation/troubleshooting.md
   - Others:
     - Donations: donations.md
