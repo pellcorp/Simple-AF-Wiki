@@ -1,5 +1,4 @@
-# ABOUT Simple AF: Creality K Series Alternative Firmware Wiki
-
+ABOUT Simple AF: Creality K Series Alternative Firmware
 The Simple AF Firmware is an alternative firmware designed to allow you to control your K-series printer using "Vanilla", also known as 'official" Klipper with alternative ABL probes. Simple AF replaces the Creality G-Code and interface meaning you can no longer use the Creality Slicer and Creality Cloud natively. You can still use the Creality Slicer but you have to export the code and then upload it from the Fluidd interface on your browser or by USB Key (thumb drive). With Creality Cloud, you will have to download your files and import them into Creality Slicer (or slicer of your choice) and then export them to a USB Key.  If you use OrcaSlicer you can upload remotely to a network connected printer, either wireless or direct connect by Cat-5 cable. Other slicers may do the same, please refer to their documentation for directions.
 
 The Simple of AF firmware will only work on the K1 series of Creality printers and it must have one of the probes listed to work. You will get errors if you try to install it alone.
