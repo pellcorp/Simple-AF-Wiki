@@ -1,7 +1,4 @@
----
-hide:
-  - footer
----
+# Simple AF Frequently Asked Questions
 
 ## What is Bed Warp Stabilization and why is it good?
 Bed Warp Stabilisation  Macro (bed heat soaking) is performed before every print by default with the initial installation of the Simple AF firmware. The macro will wait 8 seconds for every degree of target bed temp. 
