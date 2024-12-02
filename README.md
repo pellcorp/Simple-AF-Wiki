@@ -1,11 +1,9 @@
 # Simple AF: Creality K Series Alternative Firmware Wiki
 
-## About
-The Simple AF Firmware is an alternative firmware designed to allow you to control your K-series printer using "Vanilla" Klipper with alternative ABL probes.
-Simple AF replaces the Creality G-Code and interface meaning you can no longer use the Creality Slicer and Creality Cloud natively.
+This Guide is designed to help you install the Simple AF firmware as an alternative to the Creality Firmware for the K1 Series Printers.
+This allows you to use 3d-party hardware specifically, ABL probes (Automatic Bed Leveling probes) such as the Cartographer3D or the Biqu Microprobe as examples by replacing the Creality G-Code and their Klipper versing with the "vanilla" version of Klipper.
 
-The advantage of using firmware like Simple AF is that you have full control over your printer configurations, making it easier to install any of the supported probes listed:
-
+You must have one of the supported probes below to install and use the Simple AF firmware.
 <uL>
   <li>Cartographer</li>
   <li>Beacon (coming soon)</li>
@@ -23,11 +21,3 @@ Currently, Simple AF only works on the following K-series printers:
   <li>K1 Max SE (coming soon)</li>
 </ul>
 
-<br />
-
-## Installation Wiki 
-<b>  WE CAN NOT BE RESPONSIBLE FOR DAMAGE TO YOUR PRINTER - INSTALLING CUSTOM FIRMWARE IS AT YOUR OWN RISK!</b>
-
-You can find guides to install Simple AF for your probes [here](https://pellcorp.github.io/Simple-AF-Wiki/)
-
-<br />
