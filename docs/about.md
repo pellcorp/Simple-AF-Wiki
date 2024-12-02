@@ -8,7 +8,7 @@ The Simple AF firmware will only work on the K1 series of Creality printers and 
 ## Supported Probes
 The advantage of using firmware like Simple AF is that you have full control over your printer configurations, making it easier to install any of the supported probes listed:
 <uL>
-  <li>Cartographer</li>
+  <li>[Cartographer3D](https://github.com/pellcorp/Simple-AF-Wiki/edit/main/docs/Cartographer3d.md)</li>
   <li>Beacon (coming soon)</li>
   <li>BTT Eddy</li>
   <li>Microprobe</li>
