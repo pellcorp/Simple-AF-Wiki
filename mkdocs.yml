@@ -128,8 +128,8 @@ nav:
   - Home: index.md
   - About: readme.md
   - Cartographer:
+      - cart3d.md
       - cartinstall.md
-      - cartographer.md
       - cartographer_flashing.md
   - Beacon:
       - beacon.md
