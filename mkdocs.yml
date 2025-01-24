@@ -126,7 +126,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - About: README.md
+  - About: readme.md
   - Cartographer:
       - cartographer.md
       - cartographer_flashing.md
