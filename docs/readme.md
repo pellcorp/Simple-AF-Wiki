@@ -1,7 +1,7 @@
 # Simple AF: Creality K1 Series Alternative Firmware
 
 This Guide is designed to help you install the Simple AF firmware for the K1 Series printers as an alternative to the Creality Firmware.
-This allows you to use 3D-party hardware, specifically ABL probes (Automatic Bed Leveling probes) such as the Cartographer3D or the Biqu Microprobe (as examples), by replacing the Creality G-Code and their version of Klipper with the "vanilla" or official version of Klipper.
+This allows you to use 3rd-party hardware, specifically ABL probes (Automatic Bed Leveling probes) such as the Cartographer3D or the Biqu Microprobe (as examples), by replacing the Creality G-Code and their version of Klipper with the "vanilla" or official version of Klipper.
 
 ## Support the Developers
 
