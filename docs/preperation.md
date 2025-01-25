@@ -14,9 +14,10 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 
 ### Nozzle Offset
 
-!!! warn
+!!! WARNING
 
-    It is vital that you verify the model to nozzle tip distance is within the valid range of 2.6 to 3mm.  Anything out of this range will cause you problems when it comes time to doing the touch calibration, you can use this tool to verify:
+    It is vital that you verify the model to nozzle tip distance is within the valid range of 2.6 to 3mm.  
+    Anything out of this range will cause you problems when it comes time to doing the touch calibration, you can use this tool to verify:
 
     <https://www.printables.com/model/1060868-cartographer-probe-nozzle-offset-tool>
 
