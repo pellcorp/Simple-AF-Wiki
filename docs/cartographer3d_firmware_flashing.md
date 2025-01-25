@@ -1,12 +1,20 @@
 !!! danger
 
-    THIS IS A RISKY OPERATION YOU CAN BRICK YOUR CARTO
+    ***THIS IS A RISKY OPERATION YOU CAN BRICK YOUR PROBE***
 
-    Do not follow these instructions unless you have a USB V3 Carto!!!!!!
+    ***DO NOT*** follow these instructions unless you have a USB V3 Carto!!!!!!
 
-!!! warn
+!!! warning
 
-    You might corrupt the katapult boot loader trying to use a Linux VM to flash the carto, I strongly recommend a live USB over a VM.
+    Corrupting the Katapult boot loader is possible using a Linux VM to flash the probe ***It is strongly recommended*** to use a live USB over a VM.
+
+### Flashing the recommended firmware
+
+The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware
+to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version. ***Head all warnings because
+the Simple AF developers will not be responsible for damages to your hardware.***
+
+
 
 ## Verify your Cable
 
