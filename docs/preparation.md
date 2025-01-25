@@ -38,6 +38,6 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
     If you are not using a side mount you **must** verify config changes for cartotouch.cfg and cartographer-k1.cfg 
     or cartographer-k1m.cfg before **homing your printer**, using **Screws Tilt Calculate** or doing a **bed mesh**!  
 
-    Ignoring these instructions has caused **significant** damage to the build plate and/or probe.
+    Ignoring these instructions has caused ***SIGNIFICANT*** damage to the build plate and/or probe.
 
 
