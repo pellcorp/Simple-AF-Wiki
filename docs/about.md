@@ -1,6 +1,6 @@
-# Simple AF: Creality K1 Series Alternative Firmware
+# About the PellCorp and the Simple AF Project
 
-Pell is from Australia, he codes, he chases rabbits and hates haunted printers.
+Pell is from Australia, he codes, he chases rabbits, and hates haunted printers.
 
 ## Special Thanks
 
@@ -11,7 +11,7 @@ Their continued support enables us to continue to provide you with a quality pro
 
 ## Support the Developers
 
-If you are looking for a way to support this project, I have started a fundraiser to purchase a Creality K1 Max 3D printer. The purchase of this and other 3D printers will further my ability to test and release fixes and features for the K1 Series, specifically the K1 and K1 Max.
+If you benefit from this project and want to support the developers, please consider contributing to the Pellcorp GoFundMe or the Kofi account. All contributions go toward the purchase of equipment to further test and release fixes in addition to adding new features and upgrades.
 
 [Pellcorp GofundMe](https://gofund.me/2033eedb)
 
