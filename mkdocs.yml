@@ -127,7 +127,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Cartographer:
-      - cart/test.md
       - cart/preparation.md
       - cart/firmware_flashing.md
       - cart/install.md
