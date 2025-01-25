@@ -127,7 +127,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Cartographer:
-      - preperation.md
+      - preparation.md
       - cartinstall.md
       - cartographer_flashing.md
   - Beacon:
