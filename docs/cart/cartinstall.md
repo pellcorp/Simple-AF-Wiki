@@ -9,29 +9,7 @@ Thanks to Richard from <https://cartographer3d.com> and Zarboz from <https://wat
 
     This guide assumes you have a K1, K1C or K1 Max and you are running stock creality firmware 1.3.3.5 or higher, or alternately you are using  [my prerooted firmware](https://github.com/pellcorp/creality/wiki/Prerooted-K1-Firmware).   Any other pre-rooted firmware is explicitly not supported and the installer.sh will validate this and refuse to proceed if you try to use it on different firmware.
 
-## Slicer Settings
 
-!!! warning
-
-    If you have used a cartographer with k1-klipper, please note that the `PRINT_START` macro specified in their docs **is not supported** by this project.   You **must** change your Slicer Start Print Machine G-Code (see next)
-
-There is an assumption that you are using a slicer like OrcaSlicer and Machine G-code like:
-
-![image](assets/images/slicer.png)
-
-**Machine start G-code**
-
-```
-M104 S0 ; Stops OrcaSlicer from sending temp waits separately
-M140 S0
-START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single]
-```
-
-**Machine end G-code**
-
-```
-END_PRINT
-```
 
 ## Probe Installation
 
