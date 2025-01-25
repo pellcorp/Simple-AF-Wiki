@@ -126,8 +126,10 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - About: readme.md
   - Cartographer:
-      - cartographer.md
+      - cart3d.md
+      - cartinstall.md
       - cartographer_flashing.md
   - Beacon:
       - beacon.md
@@ -142,7 +144,8 @@ nav:
       - btteddy_duo_flashing.md
   - Klicky:
       - klicky.md
-  - Extras:
+  - Support:
+      - discord.md
       - misc.md
       - config_overrides.md
       - custom_hooks.md

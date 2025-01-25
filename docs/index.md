@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: SimpleAF
+title: SimpleAF*
 hide:
   - footer
 ---
