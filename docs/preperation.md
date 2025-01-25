@@ -10,7 +10,7 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 | **D3vilStock**  |Flat Pack  | [BootyCall Jones K1 & K1Max Eddy Current Mount](<https://www.printables.com/model/684338-k1-k1max-eddy-current-mount-cartographer>)  ||
 | **BootyGantry** |Right Angle| [Rail Carriage Mount](<https://github.com/tlace17/K1-Linear-Rail-Gantry/blob/main/STLs/Probe%20Mounts/Rail%20Carriage%20Carto%20Mount.stl>) |May require shimming for correct nozzle offset|
 | **SkeletorMK7** |Low Profile| [tbkMaker Skeletor Collection](<https://www.printables.com/model/833769-the-skeletor-collection-a-creality-k1k1-maxk1c-coo>)                |This is only for the low profile cartographer version of the mount!!!|
-| **PurcellV5**   |Right Angle| [Purcells Cartographer Mount Collection]<https://www.printables.com/model/1071493-cartographer-probe-side-mount-options-for-creality>                        ||
+| **PurcellV5**   |Right Angle| [Purcells Cartographer Mount Collection](<https://www.printables.com/model/1071493-cartographer-probe-side-mount-options-for-creality>)     ||
 
 ### Nozzle Offset
 
