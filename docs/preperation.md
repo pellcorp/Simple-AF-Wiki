@@ -1,13 +1,6 @@
-The Cartographer 3D is an eddy current induction sensor designed for 3D printing, offering high accuracy and repeatability. It is compatible with various 3D printer configurations and provides features like auto-Z offset and survey touch. The Cartographer3D Survey-Touch comes in several orientations. The right angle, the low profile, and the flat pack, all of which are available for purchase on its official website http://cartographer3d.com
+The Cartographer3D Survey-Touch is an eddy current induction sensor designed for 3D printing, offering high accuracy and repeatability. It is compatible with various 3D printer configurations and provides features like auto-Z offset and survey touch. The Cartographer3D comes in several orientations. The right angle, the low profile, and the flat pack, all of which are available for purchase on its official website http://cartographer3d.com
 
-
-
-!!! danger
-
-    If you are not using a side mount you **must** verify config changes for cartotouch.cfg and cartographer-k1.cfg 
-    or cartographer-k1m.cfg before **homing your printer**, using **Screws Tilt Calculate** or doing a **bed mesh**!  
-
-    Ignoring these instructions can lead to significant damage to your build plate and/or probe.
+Before using the Cartographer3d with any K1 series printer decide which orientation you want to use. The table below lists your mount options and links to supported mounts. The Right Angle configuration is the default.
 
 ### Mount Options
 
@@ -32,6 +25,13 @@ The Cartographer 3D is an eddy current induction sensor designed for 3D printing
     <https://www.printables.com/model/1121309-cartographer-probe-nozzle-offset-tool-x-offset>
 
 ### K1M vs K1/K1C/K1SE
+
+!!! danger
+
+    If you are not using a side mount you **must** verify config changes for cartotouch.cfg and cartographer-k1.cfg 
+    or cartographer-k1m.cfg before **homing your printer**, using **Screws Tilt Calculate** or doing a **bed mesh**!  
+
+    Ignoring these instructions can lead to significant damage to your build plate and/or probe.
 
 !!! info
 
