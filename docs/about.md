@@ -4,7 +4,7 @@ Pell is from Australia, he codes, he chases rabbits, and hates haunted printers.
 
 ## Special Thanks
 
-We give very special thanks to Richard from [Cartographer3d]<https://cartographer3d.com> and Zarboz from [Watts Kraken]<https://wattskraken.xyz/> for donating Cartographers to the Simple AF project and to [RavenTech3d]<https://raven3dtech.com.au/> and [Beacon3d]<https://beacon3d.com> for donating Beacon probes to the Simple AF project and to continue providing support for the Beacon Probe.
+We give very special thanks to Richard from [Cartographer3d](<https://cartographer3d.com>) and Zarboz from [Watts Kraken](<https://wattskraken.xyz/>) for donating Cartographers to the Simple AF project and to [RavenTech3d](<https://raven3dtech.com.au/>) and [Beacon3d](<https://beacon3d.com>) for donating Beacon probes to the Simple AF project and to continue providing support for the Beacon Probe.
 
 Their continued support enables us to continue to provide you with a quality product.
 
