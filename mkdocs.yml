@@ -126,8 +126,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - About: readme.md
-  - Cartographer:
+    - Cartographer:
       - cart3d.md
       - cartinstall.md
       - cartographer_flashing.md
@@ -149,3 +148,4 @@ nav:
       - misc.md
       - config_overrides.md
       - custom_hooks.md
+      - About: readme.md
