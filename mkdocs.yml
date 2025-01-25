@@ -128,8 +128,9 @@ nav:
   - Home: index.md
   - Cartographer:
       - preparation.md
+      - cartographer3d_firmware_flashing.md
       - cartinstall.md
-      - cartographer_flashing.md
+      
   - Beacon:
       - beacon.md
       - beacon_flashing.md
