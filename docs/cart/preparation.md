@@ -5,7 +5,9 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 ### Mount Options
 
 !!! info
+
     The Mount column is the switch used during the Simple AF install process.
+    
     `/usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Mount`
 
 
