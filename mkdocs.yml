@@ -126,12 +126,12 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Cartographer:
+  - Cartographer: 
       - cart/preparation.md
       - cart/firmware_flashing.md
       - cart/install.md
       - cart/slicer_settings.md
-   - Beacon:
+  - Beacon:
       - beacon/beacon.md
       - beacon/beacon_flashing.md
   - BlTouch:
