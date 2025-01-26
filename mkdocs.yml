@@ -134,19 +134,20 @@ nav:
   - Beacon:
       - beacon/beacon.md
       - beacon/beacon_flashing.md
+  - BTT EDDY:
+      - btteddy/btteddy.md
+      - btteddy/btteddy_flashing.md
+      - btteddy/btteddy_duo_flashing.md
   - BlTouch:
       - bltouch/bltouch.md
   - Microprobe:
       - microprobe/microprobe.md
-  - BttEddy:
-      - btteddy/btteddy.md
-      - btteddy/btteddy_flashing.md
-      - btteddy/btteddy_duo_flashing.md
   - Klicky:
       - klicky/klicky.md
-  - Support:
-      - support/discord.md
+  - Extras:
       - extras/misc.md
       - extras/config_overrides.md
       - extras/custom_hooks.md
+  - Support:
+      - support/discord.md
   - About: about.md
