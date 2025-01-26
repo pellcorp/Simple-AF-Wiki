@@ -10,7 +10,7 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
     
     `/usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Mount` 
     
-    when implemented should be 
+    When implemented, the install command will look like this if using the Right Angle probe for a stock K1.  
     
     `/usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Default`
 
@@ -25,14 +25,15 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 
 ### Nozzle Offset
 
+
 !!! WARNING
 
-    It is vital that you verify the model to nozzle tip distance is within the valid range of 2.6 to 3mm.  
-    Anything out of this range will cause you problems when it comes time to doing the touch calibration, you can use this tool to verify:
+    ***You must verify the probe model to nozzle tip distance is within the valid range of 2.6 to 3mm.***  
+    Anything out of this range will be problematic during the Touch Calibration steps. 
+    
+    These tools can be used to verify the nozzle offset:
 
     <https://www.printables.com/model/1060868-cartographer-probe-nozzle-offset-tool>
-
-    Or for side mounted probes you may want to consider this version:
 
     <https://www.printables.com/model/1121309-cartographer-probe-nozzle-offset-tool-x-offset>
 
