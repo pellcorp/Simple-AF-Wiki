@@ -125,7 +125,8 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home: 
+      - index.md
   - Cartographer:
       - cart/preparation.md
       - cart/firmware_flashing.md
