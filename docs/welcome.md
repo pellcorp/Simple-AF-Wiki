@@ -1,20 +1,27 @@
 
-# How to use this guide
+# Welcome
 
-Welcome to the Simple AF Firmware, we want you to realize the potential of your Creality K1 series printer by replacing one of the things that holds
-it back from its true potential and that is the Creality. By allowing you tweak your configuration through Offical Klipper and to use third party probes
-in an effort to get more accurate bed-meshes for a better printing experience.
+## The Simple AF User's Guide
+
+Welcome to the Simple AF User's Guide, we want you to realize the potential of your Creality K1 series printer by replacing one of the things that holds
+it back from its true potential and that is Creality. Replacing the Creality firmware with the Simple AF firmware allows for tweaking your configuration files through Offical Klipper and enables the use of third-party probes in an effort to get more accurate bed-meshes for a better printing experience.
+
+Currently, Simple AF officially supports six probes, the Cartographer3D Survey Touch, the Beacon, the BTT Eddy, the Bltouch, the Biqu Microprobe, and the Voron-style Klicky. It supports the linear rail gantry mod as well as the stock gantry.
+
+The Simple AF development team has tried to be thorough in making this guide but it is a constantly evolving process and mistakes will be made. Please do not hesitate to contact support through the Simple AF [Discord channel](https://discord.gg/tGGVn5qjgv) for help.
+
+## How to use this guide
 
 Installing Simple AF does not come without risk so bfore using this guide there are some things to be aware of.
 
 This guide is divided into the following sections.
 
-* Probe configurations
-* Probe firmware flashing (if applicable)
+* Probe-specific configurations
+* Probe-specific firmware flashing (if applicable)
 * Simple AF Firmawre installation
 * Probe calibrations
 * Additional information in the Extras section
-* Support
+* Frequently Asked Questions
 
 Through out this guide you will see information that is crucial to the installation and operatioon of the Simple AF Firmware and the supported probe you have chosen.
 We urge you to carefully READ each section before you begin as the information here is beneficial to successful operation of your printer.

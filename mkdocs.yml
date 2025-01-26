@@ -127,18 +127,19 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Before You Begin: welcome.md
-  - Cartographer: 
-      - cart/preparation.md
-      - cart/firmware_flashing.md
-      - cart/install.md
-      - cart/slicer_settings.md
-  - Beacon:
-      - beacon/beacon.md
-      - beacon/beacon_flashing.md
-  - BTT EDDY:
-      - btteddy/btteddy.md
-      - btteddy/btteddy_flashing.md
-      - btteddy/btteddy_duo_flashing.md
+  - EDDY PROBES:
+      - Cartographer: 
+          - cart/preparation.md
+          - cart/firmware_flashing.md
+          - cart/install.md
+          - cart/slicer_settings.md
+      - Beacon:
+          - beacon/beacon.md
+          - beacon/beacon_flashing.md
+      - BTT EDDY:
+          - btteddy/btteddy.md
+          - btteddy/btteddy_flashing.md
+          - btteddy/btteddy_duo_flashing.md
   - Mechanical Probes:
       - BlTouch:
           - bltouch/bltouch.md
