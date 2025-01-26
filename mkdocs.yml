@@ -126,6 +126,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - Before You Begin: welcome.md
   - Cartographer: 
       - cart/preparation.md
       - cart/firmware_flashing.md
@@ -144,7 +145,7 @@ nav:
       - Microprobe:
           - microprobe/microprobe.md
       - Klicky:
-        - klicky/klicky.md
+          - klicky/klicky.md
   - Extras:
       - extras/misc.md
       - extras/config_overrides.md
