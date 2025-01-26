@@ -132,21 +132,21 @@ nav:
       - cart/install.md
       - cart/slicer_settings.md
    - Beacon:
-      - beacon.md
-      - beacon_flashing.md
+      - beacon/beacon.md
+      - beacon/beacon_flashing.md
   - BlTouch:
-      - bltouch.md
+      - bltouch/bltouch.md
   - Microprobe:
-      - microprobe.md
+      - microprobe/microprobe.md
   - BttEddy:
-      - btteddy.md
-      - btteddy_flashing.md
-      - btteddy_duo_flashing.md
+      - btteddy/btteddy.md
+      - btteddy/btteddy_flashing.md
+      - btteddy/btteddy_duo_flashing.md
   - Klicky:
-      - klicky.md
+      - klicky/klicky.md
   - Support:
-      - discord.md
-      - misc.md
-      - config_overrides.md
-      - custom_hooks.md
+      - support/discord.md
+      - extras/misc.md
+      - extras/config_overrides.md
+      - extras/custom_hooks.md
   - About: about.md
