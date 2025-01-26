@@ -1,4 +1,6 @@
-The Cartographer3D Survey-Touch is an eddy current induction sensor designed for 3D printing, offering high accuracy and repeatability. It is compatible with various 3D printer configurations and provides features like auto-Z offset and survey touch. The Cartographer3D comes in several orientations. The right angle, the low profile, and the flat pack, all of which are available for purchase on its official website http://cartographer3d.com
+### Before you begin
+
+The Cartographer3D Survey-Touch is an eddy current induction sensor designed for 3D printing, offering high accuracy and repeatability. It is compatible with various 3D printer configurations and provides features like auto-Z offset and survey touch. The Cartographer3D comes in several orientations. The right angle, the low profile, and the flat pack, all of which are available for purchase on its official website <http://cartographer3d.com>
 
 Before using the Cartographer3d with any K1 series printer decide which orientation you want to use. The table below lists your mount options and links to supported mounts. The Right Angle configuration is the default.
 
@@ -14,7 +16,6 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
     
     /usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Default
 
-
 | Mount           |Carto| URL                                                                                                                  |Notes|
 |-----------------|-----------|----------------------------------------------------------------------------------------------------------------------|----------|
 | **Default**     |Right Angle| [Zerodotcmd Right Angle K1 series](<https://www.printables.com/model/1037606-cartographer-3d-right-angle-k1-series-mount>)           ||
@@ -24,7 +25,6 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 | **PurcellV5**   |Right Angle| [Purcells Cartographer Mount Collection](<https://www.printables.com/model/1071493-cartographer-probe-side-mount-options-for-creality>)     ||
 
 ### Nozzle Offset
-
 
 !!! WARNING
 
@@ -51,5 +51,3 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
     or cartographer-k1m.cfg BEFORE homing your printer, using Screw_Tilt_Calculate, or doing a Bed_Mesh_Calibrate.  
 
     Ignoring these instructions has caused SIGNIFICANT damage to the build plate and/or probe.
-
-
