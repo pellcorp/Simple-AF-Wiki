@@ -8,11 +8,11 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 
     The Mount column is the switch used during the Simple AF install process.
     
-    `/usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Mount` 
+    /usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Mount 
     
     When implemented, the install command will look like this if using the Right Angle probe for a stock K1.  
     
-    `/usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Default`
+    /usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Default
 
 
 | Mount           |Carto| URL                                                                                                                  |Notes|
