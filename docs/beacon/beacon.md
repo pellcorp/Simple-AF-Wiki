@@ -1,4 +1,4 @@
-## Where can I get help?
+### Where can I get help?
 
 Come on over to the pellcorp discord server, here is the invite, the `#simple-af-beacon` channel has been setup for anyone wanting support for beacon.
 
@@ -19,6 +19,7 @@ There is an assumption that you are using a slicer like OrcaSlicer and Machine G
 ![image](assets/images/slicer.png)
 
 **Machine start G-code**
+
 ```
 M104 S0 ; Stops OrcaSlicer from sending temp waits separately
 M140 S0
@@ -26,6 +27,7 @@ START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_tempe
 ```
 
 **Machine end G-code**
+
 ```
 END_PRINT
 ```
@@ -51,7 +53,7 @@ END_PRINT
 !!! warning
     It is vital that you verify the model to nozzle tip distance is within the valid range of 2.6 to 3mm.  
     Anything out of this range will cause you problems when it comes time to doing the touch calibration, you can use this tool to verify:
-    
+
     <https://www.printables.com/model/1060868-cartographer-probe-nozzle-offset-tool>
 
     Or for side mounted probes you may want to consider this version:
@@ -77,7 +79,7 @@ The installation can only be performed on a printer which has been rooted and ss
 
 You need root access, if you are not already root, then follow [Helper Script Enable Root Access](https://guilouz.github.io/Creality-Helper-Script-Wiki/firmwares/install-and-update-rooted-firmware-k1/#enable-root-access)
 
-### Factory Reset 
+### Factory Reset
 
 You **must** do a factory reset before running the installer.sh.   Follow these steps to do a factory reset, which retains root access and skips the startup calibration checks:
 
@@ -182,10 +184,9 @@ It is important to make sure you have a way to [emergency factory reset](misc.md
 
 For beacon you cannot use more than `microsteps: 32`, the MCU cannot handle both more microsteps and beacon, it puts too much pressure on the system and it will throw timer too close during bed meshes.
 
-### Troubleshooting 
+### Troubleshooting
 
 #### Manual Beacon Serial Device configuration
-
 
 You can run the following command to fix your serial if you forgot to plug your beacon in during the installation or update:
 
@@ -195,7 +196,7 @@ You can run the following command to fix your serial if you forgot to plug your 
 
 #### 'BeaconProbe' object has no attribute '_mcu_freq'
 
-This indicates the beacon was disconnected during homing or some other operation, you need to reboot 
+This indicates the beacon was disconnected during homing or some other operation, you need to reboot
 
 ![image](assets/images/beacon_mcu_freq.png)
 
