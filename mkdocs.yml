@@ -141,10 +141,10 @@ nav:
   - Mechanical Probes:
       - BlTouch:
           - bltouch/bltouch.md
-  - Microprobe:
-      - microprobe/microprobe.md
-  - Klicky:
-      - klicky/klicky.md
+      - Microprobe:
+          - microprobe/microprobe.md
+      - Klicky:
+        - klicky/klicky.md
   - Extras:
       - extras/misc.md
       - extras/config_overrides.md
