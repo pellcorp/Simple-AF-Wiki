@@ -28,7 +28,7 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 
 !!! WARNING
 
-    ***You must verify the probe model to nozzle tip distance is within the valid range of 2.6 to 3mm.***  
+    You MUST verify the probe model to nozzle tip distance is within the valid range of 2.6 to 3mm.  
     Anything out of this range will be problematic during the Touch Calibration steps. 
     
     These tools can be used to verify the nozzle offset:
@@ -42,14 +42,14 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 !!! info
 
     On a K1M you can use the lidar cable either directly by repinning it, or via the pass-through lidar port on the toolhead.  
-    However, you cannot use the lidar port on the toolhead for K1, K1C, or K1SE.   The reason this does not work is because for Lidar on the K1M, Creality 
+    However, you cannot use the lidar port on the toolhead for K1, K1C, or K1SE. The reason this does not work is because for Lidar on the K1M, Creality 
     routes a completely separate USB cable from the mainboard. 
 
 !!! danger
 
-    If you are not using a side mount you **must** verify config changes for cartotouch.cfg and cartographer-k1.cfg 
-    or cartographer-k1m.cfg before **homing your printer**, using **Screws Tilt Calculate** or doing a **bed mesh**!  
+    If you are not using a side mount you MUST verify config changes for cartotouch.cfg and cartographer-k1.cfg 
+    or cartographer-k1m.cfg BEFORE homing your printer, using Screw_Tilt_Calculate, or doing a Bed_Mesh_Calibrate.  
 
-    Ignoring these instructions has caused ***SIGNIFICANT*** damage to the build plate and/or probe.
+    Ignoring these instructions has caused SIGNIFICANT damage to the build plate and/or probe.
 
 
