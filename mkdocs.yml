@@ -138,8 +138,9 @@ nav:
       - btteddy/btteddy.md
       - btteddy/btteddy_flashing.md
       - btteddy/btteddy_duo_flashing.md
-  - BlTouch:
-      - bltouch/bltouch.md
+  - Mechanical Probes:
+      - BlTouch:
+          - bltouch/bltouch.md
   - Microprobe:
       - microprobe/microprobe.md
   - Klicky:
