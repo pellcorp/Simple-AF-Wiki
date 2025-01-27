@@ -38,6 +38,6 @@ We urge you to carefully READ each section before you begin as the information h
 
     The danger box contains information that MUST BE FOLLOWED to prevent damage to your hardware
 
-Failure to follow the instructions contained in this guide could result in serious damage to your printer.  The Simple AF development team is not responsible any damages that you experience from installing the firmware.
+Failure to follow the instructions contained in this guide could result in serious damage to your printer.  The Simple AF development team is not responsible for  any damages that you experience from installing the firmware.
 
 By installing Simple AF you understand that you are 100% responsible for your own risk and damages.
