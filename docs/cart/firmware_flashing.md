@@ -1,8 +1,8 @@
 # Firmware Flashing the Cartographer3D
 
-These instructions are for the Cartographer3D V3 - USB version only. *DO NOT ATTEMPT THIS IF THIS IS NOT THE VERSION YOU HAVE!*
+These instructions are for the Cartographer3D Probe V3 - USB version only. *DO NOT ATTEMPT THIS IF THIS IS NOT THE VERSION YOU HAVE!*
 
-The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version.
+The Cartographer3d Probe V3 has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version.
 Always check via discord for which version Simple AF requires.
 
 !!! DANGER
@@ -63,7 +63,7 @@ $HOME/klippy-env/bin/pip3 install -r $HOME/klipper/scripts/klippy-requirements.t
 
 ## 4. Cartographer3d V5.1.0 Firmware
 
-This firmware is provided by RichardTHF from Cartographer3d.com specifically for the K1, K1C and K1 Max. It is critical that you flash your probe with this version of the Survey Touch firmware to avoid stuttering during bed meshes.
+This firmware is provided by RichardTHF from Cartographer3d.com specifically for the K1, K1C and K1 Max. It is critical that you flash your probe with this version of the Probe V3 firmware to avoid stuttering during bed meshes.
 
 !!! WARNING
     You must flash your probe even if you received it new with firmware already installed.

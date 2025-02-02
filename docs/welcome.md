@@ -6,7 +6,7 @@
 Welcome to the Simple AF User's Guide, where we hope to help you realize the potential of your Creality K1 series printer by replacing one of the things that holds
 it back from its true potential and that is Creality. Replacing the Creality firmware with the Simple AF firmware allows for tweaking your configuration files through Offical Klipper and enables the use of third-party probes in an effort to get more accurate bed-meshes for a better printing experience.
 
-Currently, Simple AF officially supports six probes, the Cartographer3D Survey Touch, the Beacon, the BTT Eddy, the Bltouch, the Biqu Microprobe, and the Voron-style Klicky. It supports the linear rail gantry mod as well as the stock gantry.
+Currently, Simple AF officially supports six probes, the Cartographer3D Probe V3, the Beacon, the BTT Eddy, the Bltouch, the Biqu Microprobe, and the Voron-style Klicky. It supports the linear rail gantry mod as well as the stock gantry.
 
 The Simple AF development team has tried to be thorough in making this guide but it is a constantly evolving process and mistakes will be made. Please do not hesitate to contact support through the Simple AF [Discord channel](https://discord.gg/tGGVn5qjgv) for help.
 

@@ -3,7 +3,7 @@
 ## Jason Pell aka pellcorp
 
 On discord pellcorp is from Australia, he codes, he chases rabbits, and hates haunted printers.
-In real life Jason Pell is a 51 year-old software engineer obssessed with 3D printing. Simple AF firmware is his brainchild born out of a desire to make his Creality K1 be as easy to configure as his Creality Ender 3. Starting as a simple script to recreate his preferred configuration, which at the time, was using a BLTouch for auto-bedleveling. With his never ending obsession for all things 3D Printing he experimented with a Biqu Microprobe, finding it easy to support both. When a request for a free Beacon was surprisingly granted, support for it too was added, then the Cartographer3D Survey-Touch, BTT Eddy and finally the Voron Klicky.
+In real life Jason Pell is a 51 year-old software engineer obssessed with 3D printing. Simple AF firmware is his brainchild born out of a desire to make his Creality K1 be as easy to configure as his Creality Ender 3. Starting as a simple script to recreate his preferred configuration, which at the time, was using a BLTouch for auto-bedleveling. With his never ending obsession for all things 3D Printing he experimented with a Biqu Microprobe, finding it easy to support both. When a request for a free Beacon was surprisingly granted, support for it too was added, then the Cartographer3D Probe V3, BTT Eddy and finally the Voron Klicky.
 
 Crowd funding through Gofundme and Kofi has enabled Jason, fondly referred to as Pell, to purchase equipment such as the Creality K1 Max to add to his Creality K1 and Ender 3 to help provide the commmunity support in freeing them the Creality's butchered firmware.
 
@@ -28,6 +28,6 @@ If you can't donate through GoFundMe directly, consider his Kofi account.
 
 ## Special Thanks
 
-We give very special thanks to **RichardTHF** from [Cartographer3d](<https://cartographer3d.com>) and **Zarboz** from [Watts Kraken](<https://wattskraken.xyz/>) for donating Cartographer3D Survey-Touch probes, and to [RavenTech3d](<https://raven3dtech.com.au/>) and [Beacon3d](<https://beacon3d.com>) for donating Beacon probes to the Simple AF project and for their continuing support.
+We give very special thanks to **RichardTHF** from [Cartographer3d](<https://cartographer3d.com>) and **Zarboz** from [Watts Kraken](<https://wattskraken.xyz/>) for donating Cartographer3D probes, and to [RavenTech3d](<https://raven3dtech.com.au/>) and [Beacon3d](<https://beacon3d.com>) for donating Beacon probes to the Simple AF project and for their continuing support.
 
 Their continued support enables us to continue to provide you with a quality product and support.
