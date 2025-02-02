@@ -1,91 +1,84 @@
-# Flashing The Cartographer3d Firmware
+# Firmware Flashing the Cartographer3D V3 - USB Probe
 
-!!! danger
+The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version.
+Always check via discord for which version Simple AF requires.
 
-    ***THIS IS A RISKY OPERATION YOU CAN BRICK YOUR PROBE***
-
-    ***DO NOT*** follow these instructions unless you have a USB V3 Carto!!!!!!
+!!! DANGER
+    These instructions are for the Cartographer3D V3 - USB version only. *DO NOT ATTEMPT THIS IF THIS IS NOT THE VERSION YOU HAVE!*
+    Failing to follow these instructions can **BRICK** your probe!
+    ***We can not stress enough how important it is to head all warnings because the Simple AF developers will not be responsible for damages to your hardware.***
 
 !!! warning
-
     Corrupting the Katapult boot loader is possible using a Linux VM to flash the probe ***It is strongly recommended*** to use a live USB over a VM.
-
-## Flashing the recommended firmware
-
-The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version. ***Head all warnings because the Simple AF developers will not be responsible for damages to your hardware.***
 
 ## Verify your Cable
 
-Ensure the cable you are using is pinned correctly.  For both flat-pack and right-angle cartographers the default cable that comes with your probe may not be pinned correctly.
+Ensure the cable you are using is pinned correctly. For both flat-pack and right-angle cartographers the default cable that comes with your probe may not be pinned correctly. Refer to the image below.
 
 ![image](assets/images/carto_connector.png)
 
 !!! Warning
+    The flat-pack and right-angle pin-out shown in the image is different from the low-profile Cartographer's pin-out!
 
-    The right angle and flat pack pin out is different to using a low profile carto, so the image above **does not apply** to low profile cartographers!
+    **DO NOT** not use the ``firmware.cartographer3d.com``to flash your probe, it **WILL NOT** flash the proper version of the `CARTOGRAPHER 5.1.0` firmware for the K1 and K1 Max!
 
-    You **must** not use the firmware.cartographer3d.com, it will not flash the proper version of the `CARTOGRAPHER K1 5.1.0` firmware for the K1 and K1 Max.
+## Flashing
 
-    There is an incompatibility with pyserial and MIPS preventing you from being able to do this from the printer. An issue for this has been opened with
-    <https://github.com/Arksine/katapult/issues/137> 
+You will need some kind of linux environment, this can be a Raspberry Pi, desktop Linux or even a Linux Server if you can plug something in via USB. You can also create a Live USB key running Ubuntu 24.04 Desktop edition to flash from as long as you have a free usb port for the probe's USB cable. We do not recommend trying to flash your probe through a Linux VM due to reports of improperly flashed probes, to do so is oncea gain at your own risk. There is an incompatibility with pyserial and MIPS that prevents you from being able to do this from the printer. An issue for this has been opened with <https://github.com/Arksine/katapult/issues/137>.
 
-## Flashing the Cartographer
+### Creating a Live USB Key
 
-You will need some kind of linux environment, this can be a Raspberry Pi, desktop Linux or even a Linux Server if you can plug something in via USB.   If you do not have anything like that, you will need to create a Live USB key running Ubuntu 24.04 Desktop edition.
+If you need to create a live USB with Ubuntu 24.04 Desktop, make sure the USB key drive is at least 8GB in size! You can follow the provide link for a how to create one. <https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started>
 
-## Creating a Live USB Key
+You are now ready to follow the steps below to flash your Cartographer3D probe.
 
-You should create a live USB with Ubuntu 24.04 Desktop, make sure the USB is at least 8GB in size!
+## 1. Installation Dependencies
 
-<https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started>
-
-## Installation dependencies
-
-On your raspberry pi, linux desktop, linux server or live Ubuntu USB environment you need to run the following commands to install essential packages.
+On your Pi, Linux desktop/server or live Ubuntu USB environment run the following commands to install the essential packages to flash your probe.
 
 ```bash
 sudo apt-get update
 sudo apt-get install virtualenv python3-dev python3-pip libffi-dev build-essential git dfu-util
 ```
 
-## Clone Klipper and Cartographer-Klipper
+## 2. Cloning the Klipper Environment and Cartographer-Klipper
+
+Once the installation dependencies are complete run the following commands to install Klipper and Cartographer-Klipper
 
 ```bash
 git clone "https://github.com/Klipper3d/klipper" $HOME/klipper
 git clone "https://github.com/Cartographer3D/cartographer-klipper.git" $HOME/cartographer-klipper
 ```
 
-### Update Cartographer Klipper repo
+## 3. Setup Klipper Virtual Env
 
-If you already have cartographer-klipper cloned locally, and especially if you had switched to the beta to flash 5.1.0 firmware, you need to pull down the latest master and switch to it, which you can do like this:
-
-```bash
-cd $HOME/cartographer-klipper
-git fetch
-git switch master
-git reset --hard origin/master
-```
-
-## Setup Klipper Virtual Env
+Run the following command to set the Klipper Virtual Environment
 
 ```bash
 virtualenv --system-site-packages $HOME/klippy-env
 $HOME/klippy-env/bin/pip3 install -r $HOME/klipper/scripts/klippy-requirements.txt
 ```
 
-## Flashing K1 Carto Touch V5.1.0 Firmware
+## 4. Cartographer3d V5.1.0 Firmware
 
-This firmware is provided by Richard from Cartographer3d.com specifically for the K1, K1M and K1C.   It is critical that you flash your cartographer with this version of the Survey firmware over the official Survey Firmware on K1, K1M and K1C to avoid stuttering during bed meshes.
+This firmware is provided by RichardTHF from Cartographer3d.com specifically for the K1, K1C and K1 Max. It is critical that you flash your probe with this version of the Survey Touch firmware to avoid stuttering during bed meshes.
 
-### Connect Cartographer via USB
+!!! WARNING
+    You must flash your probe even if you received it new with firmware already installed.
 
-Plug the cartographer into your computer and make sure it shows up if you type `lsusb` you should find an entry something like this:
+## 5. Connect Cartographer via USB
+
+Plug the probe into your Pi, Linux desktop/server or computer running Linux from USB key using usb cable that came with your probe. Check that is connected by typing `lsusb` 
+You should see an entry something like this:
 
 ```text
 Bus 001 Device 067: ID 1d50:614e OpenMoko, Inc.
 ```
 
-### Enable Bootloader
+## 6. Enable Bootloader Mode
+
+Once the probe is connected it is time to enable the Bootloader, run the command below.
+
 
 ```bash
 CARTO_DEV=$(ls /dev/serial/by-id/usb-Cartographer*)
@@ -93,16 +86,18 @@ cd $HOME/klipper/scripts
 sudo $HOME/klippy-env/bin/python -c "import flash_usb as u; u.enter_bootloader('$CARTO_DEV')"
 ```
 
-**IMPORTANT:** If you get a message like `ls: cannot access '/dev/serial/by-id/usb-Cartographer': No such file or directory`, it means you forgot the `*` in the command above or else your carto cable is incorrectly pinned
+!!! Info
+    **IMPORTANT:** If you get a message like `ls: cannot access '/dev/serial/by-id/usb-Cartographer': No such file or directory`, it means you forgot the `*` in the command above. If you still get this message after correcting the command it means your probe's cable is pinned incorrectly.
 
-You should see a message like:
+Once complete you should see a message like:
 
 ```text
 Entering bootloader on /dev/serial/by-id/usb-Cartographer_614e_16000C000F43304253373820-if00
 ```
-**Note:** If the carto does not enter bootloader mode, it is possible you forgot to use sudo!
 
-**Note:** If your carto does show up in /dev/serial but won't enter bootloader mode, you will need to fix this with [DFU mode](#flashing-k1-firmware-via-dfu-mode)
+!!! Info 
+    If the carto does not enter bootloader mode, it is possible you forgot to use sudo!
+    If your carto does show up in '/dev/serial' but won't enter bootloader mode, you will need to fix this with [DFU mode](#flashing-k1-firmware-via-dfu-mode)
 
 ### Flashing
 
@@ -154,7 +149,7 @@ You need to bridge the boot pins before you plug your carto in via USB to your L
 
 ![image](assets/images/carto_lsusb_dfu.png)
 
-Then cd to the combined firmware directory 
+Then cd to the combined firmware directory
 
 ```
 cd $HOME/cartographer-klipper/firmware/v2-v3/combined-firmware/5.1.0
@@ -167,6 +162,5 @@ sudo dfu-util -R -a 0 -s 0x08000000:leave -D Full_Survey_Cartographer_CrealityK1
 ```
 
 ![image](assets/images/carto_dfu.png)
-
 
 **Source:** <https://docs.cartographer3d.com/cartographer-probe/firmware/manual-methods/cartographer-with-input-shaper/update-via-dfu-mode>

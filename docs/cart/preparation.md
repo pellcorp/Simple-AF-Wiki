@@ -51,3 +51,5 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
     or cartographer-k1m.cfg BEFORE homing your printer, using Screw_Tilt_Calculate, or doing a Bed_Mesh_Calibrate.  
 
     Ignoring these instructions has caused SIGNIFICANT damage to the build plate and/or probe.
+
+*Once you have decided on which mount to use and have printed it, you are ready to proceed to  Firmware Flashing your Cartographer3D.*

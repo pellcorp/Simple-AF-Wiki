@@ -22,8 +22,8 @@ This guide is divided into the following sections.
 
 * Probe-specific configurations
 * Probe-specific firmware flashing (if applicable)
-* Simple AF Firmawre installation
-* Probe calibrations
+* Simple AF Firmware Probe-specific installation
+* Probe-specific calibrations
 * Additional information in the Extras section
 * Frequently Asked Questions
 
