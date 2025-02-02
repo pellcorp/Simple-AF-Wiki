@@ -13,7 +13,7 @@ Zerodotcmd, known as Zero on discord, is a Youtube influencer and Simple AF Disc
 
 ## Community Contributors
 
-Discord has brought together and every growing community of Simple AF converts. Some of which have assisted in the development of Simple AF and its documentation.
+Discord has brought together an ever growing community of Simple AF converts. Some of which have assisted in the development of Simple AF and its documentation.
 Thanks to EAZY for wiki/webdevelopment, Zeva for python development, and to the Discord Moderators for supporting Simple AF and its community.
 
 ### Support the Developers
@@ -28,6 +28,6 @@ If you can't donate through GoFundMe directly, consider his Kofi account.
 
 ## Special Thanks
 
-We give very special thanks to **RichardTHF** from [Cartographer3d](<https://cartographer3d.com>) and **Zarboz** from [Watts Kraken](<https://wattskraken.xyz/>) for donating Cartographer3D Survey-Touch probes, and to [RavenTech3d](<https://raven3dtech.com.au/>) and [Beacon3d](<https://beacon3d.com>) for donating Beacon probes to the Simple AF project and continuing to provide support for the Simple AF Project.
+We give very special thanks to **RichardTHF** from [Cartographer3d](<https://cartographer3d.com>) and **Zarboz** from [Watts Kraken](<https://wattskraken.xyz/>) for donating Cartographer3D Survey-Touch probes, and to [RavenTech3d](<https://raven3dtech.com.au/>) and [Beacon3d](<https://beacon3d.com>) for donating Beacon probes to the Simple AF project and for their continuing support.
 
-Their continued support enables us to continue to provide you with a quality product.
+Their continued support enables us to continue to provide you with a quality product and support.

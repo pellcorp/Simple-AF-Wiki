@@ -1,4 +1,4 @@
-# Preparing your Cartographer3D Survey-Touch
+# Preparing your Cartographer3D Probe
 
 The Cartographer3D Survey-Touch is an eddy current induction sensor designed for 3D printing, offering high accuracy and repeatability. It is compatible with various 3D printer configurations and provides features like auto-Z offset and survey touch. The Cartographer3D comes in several orientations. The right angle, the low profile, and the flat pack, all of which are available for purchase on its official website <http://cartographer3d.com>
 
@@ -52,4 +52,4 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 
     Ignoring these instructions has caused SIGNIFICANT damage to the build plate and/or probe.
 
-*Once you have decided on which mount to use and have printed it, you are ready to proceed to  Firmware Flashing your Cartographer3D.*
+*Once you have decided on which mount to use and have printed it, you are ready to proceed to Firmware Flashing your Cartographer3D.*

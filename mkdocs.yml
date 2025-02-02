@@ -133,6 +133,7 @@ nav:
           - cart/firmware_flashing.md
           - cart/cartinstall.md
           - cart/slicer_settings.md
+          - cart/update.md
       - Beacon:
           - beacon/beacon.md
           - beacon/beacon_flashing.md

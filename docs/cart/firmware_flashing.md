@@ -1,10 +1,12 @@
-# Firmware Flashing the Cartographer3D V3 - USB Probe
+# Firmware Flashing the Cartographer3D
+
+These instructions are for the Cartographer3D V3 - USB version only. *DO NOT ATTEMPT THIS IF THIS IS NOT THE VERSION YOU HAVE!*
 
 The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version.
 Always check via discord for which version Simple AF requires.
 
 !!! DANGER
-    These instructions are for the Cartographer3D V3 - USB version only. *DO NOT ATTEMPT THIS IF THIS IS NOT THE VERSION YOU HAVE!*
+    
     Failing to follow these instructions can **BRICK** your probe!
     ***We can not stress enough how important it is to head all warnings because the Simple AF developers will not be responsible for damages to your hardware.***
 
