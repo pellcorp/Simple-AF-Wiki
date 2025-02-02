@@ -1,4 +1,4 @@
-# Before you begin
+# Preparing your Cartographer3D Survey-Touch
 
 The Cartographer3D Survey-Touch is an eddy current induction sensor designed for 3D printing, offering high accuracy and repeatability. It is compatible with various 3D printer configurations and provides features like auto-Z offset and survey touch. The Cartographer3D comes in several orientations. The right angle, the low profile, and the flat pack, all of which are available for purchase on its official website <http://cartographer3d.com>
 

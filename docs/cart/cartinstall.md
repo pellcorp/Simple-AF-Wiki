@@ -71,9 +71,7 @@ If you have pellcorp-overrides in github but not stored locally, [you need to re
 
 To run the script, you must use the following command:
 
-```
-/usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Mount
-```
+`*/usr/data/pellcorp/k1/installer.sh --install cartotouch --mount Mount*`
 
 !!! tip
 
@@ -85,13 +83,11 @@ To run the script, you must use the following command:
 
     You might get this error:
 
-    ```
-    error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+   ``error: RPC failed; curl 18 transfer closed with outstanding read data remaining
     fatal: the remote end hung up unexpectedly
     fatal: early EOF
-    fatal: index-pack failed
-    ```
-    
+    fatal: index-pack failed``
+
     Just rerun the installer.sh script (with the same probe argument), it will start from the stage that failed (most of the time this
     will be the Installing Klipper stage!)
     
@@ -103,15 +99,15 @@ To run the script, you must use the following command:
 
 At the end of the installer process if you get this message:
 
-```
+``
 WARNING: MCU Firmware updates are pending you need to power cycle your printer!
-```
+``
 
 It means that new MCU firmware updates need to be applied and this can only be done by power cycling the printer.  After your printer is power cycled you can verify firmware was updated with the `CHECK_FIRMWARE` macro from Fluidd or Mainsail, if you see this message:
 
-```
+``
 INFO: Your MCU Firmware is up to date!
-```
+``
 
 Your printer MCU firmware was updated successfully.   If you still see the `MCU Firmware updates are pending you need to power cycle your printer!` message after a power cycle, check the `/tmp/mcu_update.log`, you may be asked to provide this file on Discord if you need additional assistance, sometimes an additional power cycle can solve the problem, there is a very short window of time (15 seconds) in which the MCU firmware can be updated, so  there is a chance it will work after an additional power cycle.
 
@@ -171,7 +167,7 @@ is any issue with the printer configuration or your carto probe, its possible th
 9. Execute `CARTOGRAPHER_THRESHOLD_SCAN SPEED=2 MIN=1500 MAX=5000`
 <br />Upon completion *`SAVE_CONFIG`*
 
-After the save config you have to do the touch calibration.   
+After the save config you have to do the touch calibration.
 
 #### Cartographer Touch Calibration
 
