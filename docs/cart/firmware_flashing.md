@@ -12,27 +12,21 @@
 
 ## Flashing the recommended firmware
 
-The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware
-to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version. ***Head all warnings because
-the Simple AF developers will not be responsible for damages to your hardware.***
-
-
+The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version. ***Head all warnings because the Simple AF developers will not be responsible for damages to your hardware.***
 
 ## Verify your Cable
 
-You must make sure that the cable you are using is pinned correctly.  For both flat pack and right angle carto's the default cable that comes with your carto might not be pinned correctly.
+Ensure the cable you are using is pinned correctly.  For both flat-pack and right-angle cartographers the default cable that comes with your probe may not be pinned correctly.
 
 ![image](assets/images/carto_connector.png)
 
-!!! warn
-    
+!!! Warning
+
     The right angle and flat pack pin out is different to using a low profile carto, so the image above **does not apply** to low profile cartographers!
 
-!!! warn
+    You **must** not use the firmware.cartographer3d.com, it will not flash the proper version of the `CARTOGRAPHER K1 5.1.0` firmware for the K1 and K1 Max.
 
-    You **must** not use the firmware.cartographer3d.com, it will not flash the proper version of `CARTOGRAPHER K1 5.1.0` firmware for the K1.
-
-    The reason this cannot be done on K1, seems to be some incompatibility with pyserial and MIPS, and issue for this has been opened 
+    There is an incompatibility with pyserial and MIPS preventing you from being able to do this from the printer. An issue for this has been opened with
     <https://github.com/Arksine/katapult/issues/137> 
 
 ## Flashing the Cartographer
@@ -49,23 +43,23 @@ You should create a live USB with Ubuntu 24.04 Desktop, make sure the USB is at 
 
 On your raspberry pi, linux desktop, linux server or live Ubuntu USB environment you need to run the following commands to install essential packages.
 
-```
+```bash
 sudo apt-get update
 sudo apt-get install virtualenv python3-dev python3-pip libffi-dev build-essential git dfu-util
 ```
 
 ## Clone Klipper and Cartographer-Klipper
 
-```
+```bash
 git clone "https://github.com/Klipper3d/klipper" $HOME/klipper
 git clone "https://github.com/Cartographer3D/cartographer-klipper.git" $HOME/cartographer-klipper
 ```
 
-### Update Cartographer Klipper repo 
+### Update Cartographer Klipper repo
 
 If you already have cartographer-klipper cloned locally, and especially if you had switched to the beta to flash 5.1.0 firmware, you need to pull down the latest master and switch to it, which you can do like this:
 
-```
+```bash
 cd $HOME/cartographer-klipper
 git fetch
 git switch master
@@ -74,7 +68,7 @@ git reset --hard origin/master
 
 ## Setup Klipper Virtual Env
 
-```
+```bash
 virtualenv --system-site-packages $HOME/klippy-env
 $HOME/klippy-env/bin/pip3 install -r $HOME/klipper/scripts/klippy-requirements.txt
 ```
@@ -87,13 +81,13 @@ This firmware is provided by Richard from Cartographer3d.com specifically for th
 
 Plug the cartographer into your computer and make sure it shows up if you type `lsusb` you should find an entry something like this:
 
-```
+```text
 Bus 001 Device 067: ID 1d50:614e OpenMoko, Inc.
 ```
 
 ### Enable Bootloader
 
-```
+```bash
 CARTO_DEV=$(ls /dev/serial/by-id/usb-Cartographer*)
 cd $HOME/klipper/scripts
 sudo $HOME/klippy-env/bin/python -c "import flash_usb as u; u.enter_bootloader('$CARTO_DEV')"
@@ -103,7 +97,7 @@ sudo $HOME/klippy-env/bin/python -c "import flash_usb as u; u.enter_bootloader('
 
 You should see a message like:
 
-```
+```text
 Entering bootloader on /dev/serial/by-id/usb-Cartographer_614e_16000C000F43304253373820-if00
 ```
 **Note:** If the carto does not enter bootloader mode, it is possible you forgot to use sudo!
@@ -112,14 +106,14 @@ Entering bootloader on /dev/serial/by-id/usb-Cartographer_614e_16000C000F4330425
 
 ### Flashing
 
-```
+```bash
 CATAPULT_DEV=$(ls /dev/serial/by-id/usb-katapult*)
 sudo $HOME/klippy-env/bin/python $HOME/klipper/lib/canboot/flash_can.py -f $HOME/cartographer-klipper/firmware/v2-v3/survey/5.1.0/Survey_Cartographer_K1_USB_8kib_offset.bin -d $CATAPULT_DEV
 ```
 
 You should see output this this:
 
-```
+```text
 Attempting to connect to bootloader
 CanBoot Connected
 Protocol Version: 1.0.0
