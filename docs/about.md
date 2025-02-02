@@ -8,7 +8,6 @@ We give very special thanks to **Richard** from [Cartographer3d](<https://cartog
 
 Their continued support enables us to continue to provide you with a quality product.
 
-
 ## Support the Developers
 
 If you benefit from this project and want to support the developers, please consider contributing to the Pellcorp GoFundMe or the Kofi account. All contributions go toward purchasing equipment to further test, release fixes, and add new features and upgrades.

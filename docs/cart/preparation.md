@@ -4,7 +4,7 @@ The Cartographer3D Survey-Touch is an eddy current induction sensor designed for
 
 Before using the Cartographer3d with any K1 series printer decide which orientation you want to use. The table below lists your mount options and links to supported mounts. The Right Angle configuration is the default.
 
-### Mount Options
+## Mount Options
 
 !!! info
 
@@ -24,7 +24,7 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 | **SkeletorMK7** |Low Profile| [tbkMaker Skeletor Collection](<https://www.printables.com/model/833769-the-skeletor-collection-a-creality-k1k1-maxk1c-coo>)                |This is only for the low profile cartographer version of the mount!!!|
 | **PurcellV5**   |Right Angle| [Purcells Cartographer Mount Collection](<https://www.printables.com/model/1071493-cartographer-probe-side-mount-options-for-creality>)     ||
 
-### Nozzle Offset
+## Nozzle Offset
 
 !!! WARNING
 
@@ -37,7 +37,7 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 
     <https://www.printables.com/model/1121309-cartographer-probe-nozzle-offset-tool-x-offset>
 
-### K1M vs K1/K1C/K1SE
+## K1M vs K1/K1C/K1SE
 
 !!! info
 
