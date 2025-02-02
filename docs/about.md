@@ -22,12 +22,12 @@ If you benefit from this project and want to support the developers, please cons
 
 [Pellcorp GofundMe](https://gofund.me/2033eedb)
 
-If you can't donate through GoFundMe directly, consider my Kofi account. Thank you!
+If you can't donate through GoFundMe directly, consider his Kofi account.
 
 [Buy me a Kofi](https://ko-fi.com/pellcorp49698)
 
 ## Special Thanks
 
-We give very special thanks to **Richard** from [Cartographer3d](<https://cartographer3d.com>) and **Zarboz** from [Watts Kraken](<https://wattskraken.xyz/>) for donating Cartographers to the Simple AF project and [RavenTech3d](<https://raven3dtech.com.au/>) and [Beacon3d](<https://beacon3d.com>) for donating Beacon probes to the Simple AF project and to continue providing support for the Beacon Probe.
+We give very special thanks to **RichardTHF** from [Cartographer3d](<https://cartographer3d.com>) and **Zarboz** from [Watts Kraken](<https://wattskraken.xyz/>) for donating Cartographer3D Survey-Touch probes, and to [RavenTech3d](<https://raven3dtech.com.au/>) and [Beacon3d](<https://beacon3d.com>) for donating Beacon probes to the Simple AF project and continuing to provide support for the Simple AF Project.
 
 Their continued support enables us to continue to provide you with a quality product.

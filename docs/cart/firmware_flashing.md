@@ -1,4 +1,4 @@
-### Flashing The Cartographer3d Firmware
+# Flashing The Cartographer3d Firmware
 
 !!! danger
 
@@ -10,7 +10,7 @@
 
     Corrupting the Katapult boot loader is possible using a Linux VM to flash the probe ***It is strongly recommended*** to use a live USB over a VM.
 
-### Flashing the recommended firmware
+## Flashing the recommended firmware
 
 The Cartographer3d Survey-Touch has its own firmware developed by the Cartographer3d developers, and it is important to make sure the Cartographer3d is on the latest supported firmware
 to function properly with the Simple AF firmware installed on the printer. Below are the steps to help you flash your Cartographer to the recommended firmware version. ***Head all warnings because
@@ -39,7 +39,7 @@ You must make sure that the cable you are using is pinned correctly.  For both f
 
 You will need some kind of linux environment, this can be a Raspberry Pi, desktop Linux or even a Linux Server if you can plug something in via USB.   If you do not have anything like that, you will need to create a Live USB key running Ubuntu 24.04 Desktop edition.
 
-### Creating a Live USB Key
+## Creating a Live USB Key
 
 You should create a live USB with Ubuntu 24.04 Desktop, make sure the USB is at least 8GB in size!
 

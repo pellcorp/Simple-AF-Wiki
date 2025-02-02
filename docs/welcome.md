@@ -10,6 +10,10 @@ Currently, Simple AF officially supports six probes, the Cartographer3D Survey T
 
 The Simple AF development team has tried to be thorough in making this guide but it is a constantly evolving process and mistakes will be made. Please do not hesitate to contact support through the Simple AF [Discord channel](https://discord.gg/tGGVn5qjgv) for help.
 
+## Understand the Risk
+
+*By installing Simple AF, you understand that this firmware is not a mature product and is always under development AND THAT YOU ARE 100% RESPONSIBLE FOR ANY DAMAGES THAT MAY OCCUR TO YOUR PRINTER!*
+
 ## How to use this guide
 
 Installing Simple AF does not come without risk so before using this guide there are some things to be aware of.
@@ -40,4 +44,6 @@ We urge you to carefully READ each section before you begin as the information h
 
 Failure to follow the instructions contained in this guide could result in serious damage to your printer.  The Simple AF development team is not responsible for  any damages that you experience from installing the firmware.
 
-By installing Simple AF you understand that you are 100% responsible for your own risk and damages.
+## Choosing Your Probe
+
+Select your probe type from the menu and follow the guide to install Simple AF firmware on your printer with the probe of your choice.
