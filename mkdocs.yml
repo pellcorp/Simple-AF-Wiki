@@ -127,11 +127,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Before You Begin: welcome.md
-  - EDDY PROBES:
+  - EDDY Current PROBES:
       - Cartographer: 
           - cart/preparation.md
           - cart/firmware_flashing.md
-          - cart/install.md
+          - cart/cartinstall.md
           - cart/slicer_settings.md
       - Beacon:
           - beacon/beacon.md
