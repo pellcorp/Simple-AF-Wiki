@@ -1,5 +1,5 @@
 
-### Thanks
+# THANKS
 
 Thanks to Richard from <https://cartographer3d.com> and Zarboz from <https://wattskraken.xyz/> for donating Cartographers to the Simple AF project to add support and continue to support the cartographer.
 
@@ -9,11 +9,7 @@ Thanks to Richard from <https://cartographer3d.com> and Zarboz from <https://wat
 
     This guide assumes you have a K1, K1C or K1 Max and you are running stock creality firmware 1.3.3.5 or higher, or alternately you are using  [my prerooted firmware](https://github.com/pellcorp/creality/wiki/Prerooted-K1-Firmware).   Any other pre-rooted firmware is explicitly not supported and the installer.sh will validate this and refuse to proceed if you try to use it on different firmware.
 
-
-
 ## Probe Installation
-
-
 
 ## Cartographer Firmware
 
@@ -35,15 +31,13 @@ You need root access, if you are not already root, then follow the excellent [He
 
     ZeroDotCmd (aka Zero on discord) has provided an excellent Cartographer installation video, you can find it <https://www.youtube.com/watch?v=GuxMITM9o4I>
 
-### Factory Reset 
+### Factory Reset
 
 You **must** do a factory reset before running the installer.sh.   Follow these steps to do a factory reset, which retains root access and skips the startup calibration checks:
 
-```
-wget --no-check-certificate  https://raw.githubusercontent.com/pellcorp/creality/main/k1/services/S58factoryreset
-chmod +x S58factoryreset
-./S58factoryreset reset
-```
+```wget --no-check-certificate  https://raw.githubusercontent.com/pellcorp/creality/main/k1/services/S58factoryreset```
+```chmod +x S58factoryreset```
+```./S58factoryreset reset```
 
 !!! warn
 
@@ -53,11 +47,9 @@ chmod +x S58factoryreset
 
 ### Clone the Repo
 
-```
-git config --global http.sslVerify false
-git clone https://github.com/pellcorp/creality.git /usr/data/pellcorp
-sync
-```
+`git config --global http.sslVerify false`
+`git clone https://github.com/pellcorp/creality.git /usr/data/pellcorp`
+`sync`
 
 ??? note "RPC Timeouts, try SSH Git Clone"
     ```
