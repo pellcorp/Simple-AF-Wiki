@@ -1,4 +1,4 @@
-# About the PellCorp and the Simple AF Project
+# About PellCorp and the Simple AF Project
 
 ## Jason Pell aka pellcorp
 

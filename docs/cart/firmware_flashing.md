@@ -6,7 +6,7 @@ The Cartographer3d Probe V3 has its own firmware developed by the Cartographer3d
 Always check via discord for which version Simple AF requires.
 
 !!! DANGER
-    
+
     Failing to follow these instructions can **BRICK** your probe!
     ***We can not stress enough how important it is to head all warnings because the Simple AF developers will not be responsible for damages to your hardware.***
 
@@ -70,7 +70,7 @@ This firmware is provided by RichardTHF from Cartographer3d.com specifically for
 
 ## 5. Connect Cartographer via USB
 
-Plug the probe into your Pi, Linux desktop/server or computer running Linux from USB key using usb cable that came with your probe. Check that is connected by typing `lsusb` 
+Plug the probe into your Pi, Linux desktop/server or computer running Linux from USB key using usb cable that came with your probe. Check that is connected by typing `lsusb`
 You should see an entry something like this:
 
 ```text
@@ -80,7 +80,6 @@ Bus 001 Device 067: ID 1d50:614e OpenMoko, Inc.
 ## 6. Enable Bootloader Mode
 
 Once the probe is connected it is time to enable the Bootloader, run the command below.
-
 
 ```bash
 CARTO_DEV=$(ls /dev/serial/by-id/usb-Cartographer*)
@@ -97,7 +96,7 @@ Once complete you should see a message like:
 Entering bootloader on /dev/serial/by-id/usb-Cartographer_614e_16000C000F43304253373820-if00
 ```
 
-!!! Info 
+!!! Info
     If the carto does not enter bootloader mode, it is possible you forgot to use sudo!
     If your carto does show up in '/dev/serial' but won't enter bootloader mode, you will need to fix this with [DFU mode](#flashing-k1-firmware-via-dfu-mode)
 

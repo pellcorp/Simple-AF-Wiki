@@ -11,7 +11,7 @@ While the Simple AF development team has made every effort to ensure this guide 
 
 ## Understand the Risk
 
-*By installing Simple AF, you understand that this firmware is not a mature product and is always under development
+By installing Simple AF, you understand that this firmware is not a mature product and is always under development
 
 !!! WARNING
     *YOU ARE 100% RESPONSIBLE FOR ANY DAMAGES THAT MAY OCCUR TO YOUR PRINTER!*
