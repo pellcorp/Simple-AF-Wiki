@@ -128,8 +128,9 @@ nav:
   - Home: index.md
   - Before You Begin: welcome.md
   - EDDY Current Probes: eddy.md
-  - Choose your Eddy Probe:  
-     - Cartographer3D: 
+   - Mechanical Probes: mechprobe.md
+  - Choose your Probe:  
+      - Cartographer3D: 
           - cart/preparation.md
           - cart/firmware_flashing.md
           - cart/cartinstall.md
@@ -142,8 +143,6 @@ nav:
           - btteddy/btteddy.md
           - btteddy/btteddy_flashing.md
           - btteddy/btteddy_duo_flashing.md
-  - Mechanical Probes: mechprobe.md
-  - Choose your Mechanical Probe:
       - BlTouch:
           - bltouch/bltouch.md
       - Microprobe:
