@@ -3,16 +3,18 @@
 
 ## The Simple AF User's Guide
 
-Welcome to the Simple AF User's Guide, where we hope to help you realize the potential of your Creality K1 series printer by replacing one of the things that holds
-it back from its true potential and that is Creality. Replacing the Creality firmware with the Simple AF firmware allows for tweaking your configuration files through Offical Klipper and enables the use of third-party probes in an effort to get more accurate bed-meshes for a better printing experience.
+Welcome to the Simple AF User's Guide. Our goal is to help you unlock the full potential of your Creality K1 series printer by addressing one of its key limitations—Creality's proprietary firmware. By replacing this with Simple AF firmware, you gain the ability to fine-tune your configuration files through the official Klipper platform and utilize third-party probes, enhancing bed-mesh accuracy for an improved printing experience.
 
-Currently, Simple AF officially supports six probes, the Cartographer3D Probe V3, the Beacon, the BTT Eddy, the Bltouch, the Biqu Microprobe, and the Voron-style Klicky. It supports the linear rail gantry mod as well as the stock gantry.
+Currently, Simple AF officially supports six probes: the Cartographer3D Probe V3, the Beacon, the BTT Eddy, the BLTouch, the Biqu Microprobe, and the Voron-style Klicky. It is also compatible with both the linear rail gantry mod and the stock gantry.
 
-The Simple AF development team has tried to be thorough in making this guide but it is a constantly evolving process and mistakes will be made. Please do not hesitate to contact support through the Simple AF [Discord channel](https://discord.gg/tGGVn5qjgv) for help.
+While the Simple AF development team has made every effort to ensure this guide is comprehensive, it is a work in progress, and some errors may occur. Should you need assistance, please don’t hesitate to reach out via the [Simple AF Discord channel](https://discord.gg/tGGVn5qjgv).
 
 ## Understand the Risk
 
-*By installing Simple AF, you understand that this firmware is not a mature product and is always under development AND THAT YOU ARE 100% RESPONSIBLE FOR ANY DAMAGES THAT MAY OCCUR TO YOUR PRINTER!*
+*By installing Simple AF, you understand that this firmware is not a mature product and is always under development
+
+!!! WARNING
+    *YOU ARE 100% RESPONSIBLE FOR ANY DAMAGES THAT MAY OCCUR TO YOUR PRINTER!*
 
 ## How to use this guide
 
@@ -31,11 +33,11 @@ Through out this guide you will see information that is crucial to the installat
 We urge you to carefully READ each section before you begin as the information here is beneficial to the successful operation of your printer.
 
 !!! Info
-    
+
     The information box will provide tips and hints that may help with the setup process and printer/probe operations
 
 !!! Warning
-    
+
     The warning box provides crucial information that could affect installation or operation
 
 !!! Danger
