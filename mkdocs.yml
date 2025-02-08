@@ -128,16 +128,16 @@ nav:
   - Home: index.md
   - Before You Begin: welcome.md
   - EDDY Current Probes: eddy.md  
-      - Cartographer: 
+  - Cartographer: 
           - cart/preparation.md
           - cart/firmware_flashing.md
           - cart/cartinstall.md
           - cart/slicer_settings.md
           - cart/update.md
-      - Beacon:
+  - Beacon:
           - beacon/beacon.md
           - beacon/beacon_flashing.md
-      - BTT EDDY:
+  - BTT EDDY:
           - btteddy/btteddy.md
           - btteddy/btteddy_flashing.md
           - btteddy/btteddy_duo_flashing.md
