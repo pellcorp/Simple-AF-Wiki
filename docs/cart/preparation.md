@@ -1,7 +1,5 @@
 # Preparing your Cartographer3D Probe
 
-The Cartographer3D Probe V3 is an eddy current induction sensor designed for 3D printing, offering high accuracy and repeatability. It is compatible with various 3D printer configurations and provides features like auto-Z offset and survey touch. The Cartographer3D comes in several orientations. The right angle, the low profile, and the flat pack, all of which are available for purchase on its official website <http://cartographer3d.com>
-
 Before using the Cartographer3d with any K1 series printer decide which orientation you want to use. The table below lists your mount options and links to supported mounts. The Right Angle configuration is the default.
 
 ## Mount Options

@@ -127,7 +127,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Before You Begin: welcome.md
-  - EDDY Current PROBES:
+  - EDDY Current Probes: eddy.md
       - Cartographer: 
           - cart/preparation.md
           - cart/firmware_flashing.md
