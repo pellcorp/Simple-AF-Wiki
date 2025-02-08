@@ -128,7 +128,7 @@ nav:
   - Home: index.md
   - Before You Begin: welcome.md
   - EDDY Current Probes: eddy.md
-   - Mechanical Probes: mechprobe.md
+  - Mechanical Probes: mechprobe.md
   - Choose your Probe:  
       - Cartographer3D: 
           - cart/preparation.md
@@ -136,10 +136,10 @@ nav:
           - cart/cartinstall.md
           - cart/slicer_settings.md
           - cart/update.md
-     - Beacon3D:
+      - Beacon3D:
           - beacon/beacon.md
           - beacon/beacon_flashing.md
-     - BTT EDDY:
+      - BTT EDDY:
           - btteddy/btteddy.md
           - btteddy/btteddy_flashing.md
           - btteddy/btteddy_duo_flashing.md
