@@ -129,8 +129,8 @@ nav:
   - Before You Begin: welcome.md
   - EDDY Current Probes: eddy.md
   - Cartographer3D: 
-      - cart/preparation.md
       - cart/firmware_flashing.md
+      - cart/preparation.md
       - cart/saf_install.md
       - cart/cartcalibrations.md
       - cart/slicer_settings.md

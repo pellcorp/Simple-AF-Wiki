@@ -1,15 +1,15 @@
-# Simple AF Firmware requirements
+# Simple AF Firmware Installation
 
 !!! warning
 
     This guide assumes you have a K1, K1C or K1 Max and you are running stock creality firmware 1.3.3.5 or higher, or alternately you are using  [my prerooted firmware](https://github.com/pellcorp/creality/wiki/Prerooted-K1-Firmware). Any other pre-rooted firmware is explicitly not supported and the installer.sh will validate this and refuse to proceed if you try to use it on different firmware.
 
-## Probe Installation
+## Requirements
 
-You will have chosen and printed a mount for your style probe and mounted it accordingly to your toolhead.
-
-## Cartographer Firmware
-
+    == 1. Cartographer Firmware ==
+    == 2. Probe Installation ==
+        You will have chosen and printed a mount for your style probe and mounted it accordingly to your toolhead.
+    
 !!! warning
 
     You must have flashed your cartographer with `CARTOGRAPHER K1 5.1.0` survey firmware **before** starting the installation:
@@ -18,7 +18,7 @@ You will have chosen and printed a mount for your style probe and mounted it acc
 
     There is a guide for this [here](firmware_flashing.md)
 
-## Simple AF Installation
+## Installation Steps
 
 !!! warning
     The installation can only be performed on a printer which has been rooted and ssh granted.
