@@ -1,9 +1,8 @@
-
 # Simple AF Firmware requirements
 
 !!! warning
 
-    This guide assumes you have a K1, K1C or K1 Max and you are running stock creality firmware 1.3.3.5 or higher, or alternately you are using  [my prerooted firmware](https://github.com/pellcorp/creality/wiki/Prerooted-K1-Firmware).   Any other pre-rooted firmware is explicitly not supported and the installer.sh will validate this and refuse to proceed if you try to use it on different firmware.
+    This guide assumes you have a K1, K1C or K1 Max and you are running stock creality firmware 1.3.3.5 or higher, or alternately you are using  [my prerooted firmware](https://github.com/pellcorp/creality/wiki/Prerooted-K1-Firmware). Any other pre-rooted firmware is explicitly not supported and the installer.sh will validate this and refuse to proceed if you try to use it on different firmware.
 
 ## Probe Installation
 
@@ -128,5 +127,4 @@ It is important to make sure you have a way to [emergency factory reset](extras/
 
 - If you get no message at all before the script ends (after 60 seconds), your USB is defective. You can check the `messages.log` file in the logs section of your UI to get more details about why the usb key could not be mounted!
 
-==Congratulations you are now ready to perform probe calibratons!==
-
+== Congratulations you are now ready to perform your initial probe calibratons! ==
