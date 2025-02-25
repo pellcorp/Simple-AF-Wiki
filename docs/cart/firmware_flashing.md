@@ -99,7 +99,8 @@ Enter the following command:
 
 You should see the following out output:
 
-`Attempting to connect to bootloader
+`
+Attempting to connect to bootloader
 CanBoot Connected
 Protocol Version: 1.0.0
 Block Size: 64 bytes
@@ -115,7 +116,8 @@ Verifying (block count = 338)...
 [##################################################]
 
 Verification Complete: SHA = BB45B9575AC57FFF03CA5FE09186DB479E09BF53
-CAN Flash Success`
+CAN Flash Success
+`
 
 **Note:** If the carto does not flash, it is possible you forgot to use `sudo`!
 
