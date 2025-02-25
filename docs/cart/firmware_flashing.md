@@ -41,19 +41,15 @@ You are now ready to follow the steps below to flash your Cartographer3D probe.
 
 On your Linux device run the following commands to install the essential packages to flash your probe.
 
-    ``` 
-        sudo apt-get update
-        sudo apt-get install virtualenv python3-dev python3-pip libffi-dev build-essential git dfu-util
-    ```
+    ```sudo apt-get update
+       sudo apt-get install virtualenv python3-dev python3-pip libffi-dev build-essential git dfu-util```
 
 ### 2. Cloning the Klipper Environment and Cartographer-Klipper
 
 Once the installation dependencies are complete run the following commands to install Klipper and Cartographer-Klipper
 
-    ``` 
-        git clone "https://github.com/Klipper3d/klipper" $HOME/klipper
-        git clone "https://github.com/Cartographer3D/cartographer-klipper.git" $HOME/cartographer-klipper
-    ```
+    ```git clone "https://github.com/Klipper3d/klipper" $HOME/klipper
+       git clone "https://github.com/Cartographer3D/cartographer-klipper.git" $HOME/cartographer-klipper```
 
 ### 3. Setup Klipper Virtual Env
 
@@ -113,25 +109,23 @@ Enter the following command:
 
 You should see the following out output:
 
-    ``
-        Attempting to connect to bootloader
-        CanBoot Connected
-        Protocol Version: 1.0.0
-        Block Size: 64 bytes
-        Application Start: 0x8002000
-        MCU type: stm32f042x6
-        Flashing '/home/ubuntu/cartographer-klipper/firmware/v2-v3/survey/5.1.0/Survey_Cartographer_K1_USB_8kib_offset.bin'...
+    `Attempting to connect to bootloader
+     CanBoot Connected
+     Protocol Version: 1.0.0
+     Block Size: 64 bytes
+     Application Start: 0x8002000
+     MCU type: stm32f042x6
+     Flashing '/home/ubuntu/cartographer-klipper/firmware/v2-v3/survey/5.1.0/Survey_Cartographer_K1_USB_8kib_offset.bin'...
 
-        [##################################################]
+     [##################################################]
 
-        Write complete: 22 pages
-        Verifying (block count = 338)...
+     Write complete: 22 pages
+     Verifying (block count = 338)...
 
-        [##################################################]
+     [##################################################]
 
-        Verification Complete: SHA = BB45B9575AC57FFF03CA5FE09186DB479E09BF53
-        CAN Flash Success
-    ``
+     Verification Complete: SHA = BB45B9575AC57FFF03CA5FE09186DB479E09BF53
+     CAN Flash Success`
 
 **Note:** If the carto does not flash, it is possible you forgot to use sudo!
 
@@ -156,15 +150,11 @@ You need to bridge the boot pins before you plug your carto in via USB to your L
 
 Then cd to the combined firmware directory
 
-    ```
-        cd $HOME/cartographer-klipper/firmware/v2-v3/combined-firmware/5.1.0
-    ```
+    ```cd $HOME/cartographer-klipper/firmware/v2-v3/combined-firmware/5.1.0```
 
 And run dfu-util to write the firmware:
 
-    ```
-        sudo dfu-util -R -a 0 -s 0x08000000:leave -D Full_Survey_Cartographer_CrealityK1_USB_5_1_0.bin
-    ```
+    ```sudo dfu-util -R -a 0 -s 0x08000000:leave -D Full_Survey_Cartographer_CrealityK1_USB_5_1_0.bin```
 
 [image](assets/images/carto_dfu.png)
 
