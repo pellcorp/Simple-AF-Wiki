@@ -143,6 +143,9 @@ nav:
           - btteddy/btteddy.md
           - btteddy/btteddy_flashing.md
           - btteddy/btteddy_duo_flashing.md
+      - Eddy NG:
+          - eddyng/eddyng.md
+          - eddyng/eddyng_flashing.md
       - BlTouch:
           - bltouch/bltouch.md
       - Microprobe:
