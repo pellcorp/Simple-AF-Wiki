@@ -1,4 +1,4 @@
-# Firmware Flashing the Cartographer3D  {#firmware-flashing-thecartographer3e-id}
+# Firmware Flashing the Cartographer3D
 
 These instructions are for the Cartographer3D Probe V3 - USB version only. *DO NOT ATTEMPT THIS IF THIS IS NOT THE VERSION YOU HAVE!*
 
