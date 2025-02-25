@@ -1,4 +1,4 @@
-# Preparing your Cartographer3D Probe {#prepare-id}
+# Preparing your Cartographer3D Probe
 
 Before using the Cartographer3d with any K1 series printer decide which orientation you want to use. The table below lists your mount options and links to supported mounts. The Right Angle configuration is the default.
 
