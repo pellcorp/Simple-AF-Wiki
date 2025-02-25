@@ -41,8 +41,8 @@ You are now ready to follow the steps below to flash your Cartographer3D probe.
 
 On your Linux device run the following commands to install the essential packages to flash your probe.
 
-    ```sudo apt-get update
-       sudo apt-get install virtualenv python3-dev python3-pip libffi-dev build-essential git dfu-util```
+        sudo apt-get update
+        sudo apt-get install virtualenv python3-dev python3-pip libffi-dev build-essential git dfu-util
 
 ### 2. Cloning the Klipper Environment and Cartographer-Klipper
 
