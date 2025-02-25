@@ -50,4 +50,4 @@ Before using the Cartographer3d with any K1 series printer decide which orientat
 
     Ignoring these instructions has caused SIGNIFICANT damage to the build plate and/or probe.
 
-*Once you have decided on which mount to use and have printed it, you are ready to proceed to Firmware Flashing your Cartographer3D.*
+*Once you have decided on which mount to use and have printed it, you are ready to proceed to [Firmware Flashing your Cartographer3D](cart/firmware_flashing.md).*

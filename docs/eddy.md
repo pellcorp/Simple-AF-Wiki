@@ -12,7 +12,6 @@ If you haven't already chosen your probe here is a brief summary of each.
 
 The Cartographer3D Probe V3 is an advanced eddy current displacement sensor designed to enhance 3D printing accuracy by precisely scanning the printer's bed surface. Compatible with both USB and CAN setups, it offers flexibility in connectivity options. The probe features an integrated ADXL345 accelerometer, enabling input shaping for improved print quality. Its high-speed scanning capability reduces setup time, allowing enthusiasts to achieve optimal bed leveling efficiently. The compact and lightweight design ensures easy installation without adding significant weight to the printer's toolhead. Users can purchase the Cartographer3D Probe V3 directly from the official website at [Cartographer3d](<http://cartographer3d.com>) or through authorized resellers listed on their resellers page.
 
-[Go to Cartographer Install](cart/preparation.md)
 
 ### The Beacon
 
@@ -21,3 +20,6 @@ The Beacon3D Beacon is an innovative eddy current sensor designed to enhance 3D 
 ### BTT Eddy
 
 The BIGTREETECH (BTT) Eddy is an advanced auto bed leveling sensor that utilizes eddy current technology to deliver rapid and precise bed leveling for 3D printers. Weighing only 6 grams, it minimizes impact on the printer's movement while providing 0.0005mm precision leveling. The sensor heats up in just 20 seconds, ensuring minimal downtime before printing. Its thermal compensation feature maintains accuracy across varying temperatures, and the Z-axis return function ensures consistent print quality. Compatible with a wide range of 3D printers, including models like the Ender 3, the BTT Eddy enhances the printing experience by reducing setup time and improving first-layer adhesion, leading to more successful prints. Enthusiasts can purchase the BTT Eddy from various retailers, including Amazon AMAZON.COM and Aliexpress.com.
+
+
+[def]: cart/preparation.md#preparing-your-cartographer3d-probe-prepare-id
