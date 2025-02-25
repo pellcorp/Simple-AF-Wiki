@@ -8,7 +8,7 @@ Additionally, Eddy Current Probes can help hobbyists assess the material propert
 
 If you haven't already chosen your probe here is a brief summary of each.
 
-### [Cartographer3d Probe V3]{cart/preparation.md}
+### [Cartographer3d Probe V3]{cart/preparation.md#prepare-id}
 
 The Cartographer3D Probe V3 is an advanced eddy current displacement sensor designed to enhance 3D printing accuracy by precisely scanning the printer's bed surface. Compatible with both USB and CAN setups, it offers flexibility in connectivity options. The probe features an integrated ADXL345 accelerometer, enabling input shaping for improved print quality. Its high-speed scanning capability reduces setup time, allowing enthusiasts to achieve optimal bed leveling efficiently. The compact and lightweight design ensures easy installation without adding significant weight to the printer's toolhead. Users can purchase the Cartographer3D Probe V3 directly from the official website at [Cartographer3d](<http://cartographer3d.com>) or through authorized resellers listed on their resellers page.
 
