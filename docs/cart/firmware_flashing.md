@@ -17,7 +17,7 @@ Always check via discord for which version Simple AF requires.
 
 Ensure the cable you are using is pinned correctly. For both flat-pack and right-angle cartographers the default cable that comes with your probe may not be pinned correctly. Refer to the image below.
 
-![image](docs/assets/images/carto_connector.png)
+![image]([docs/assets/images/carto_connector.png](https://pellcorp.github.io/creality-wiki/assets/images/carto_connector.png))
 
 !!! Warning
     The flat-pack and right-angle pin-out shown in the image is different from the low-profile Cartographer's pin-out!
