@@ -128,29 +128,29 @@ nav:
   - Home: index.md
   - Before You Begin: welcome.md
   - EDDY Current Probes: eddy.md
-  - Mechanical Probes: mechprobe.md
-  - Choose your Probe:  
-      - Cartographer3D: 
-          - cart/preparation.md
-          - cart/firmware_flashing.md
-          - cart/cartinstall.md
-          - cart/slicer_settings.md
-          - cart/update.md
-      - Beacon3D:
-          - beacon/beacon.md
-          - beacon/beacon_flashing.md
-      - BTT EDDY:
-          - btteddy/btteddy.md
-          - btteddy/btteddy_flashing.md
-          - btteddy/btteddy_duo_flashing.md
+  - Cartographer3D: 
+      - cart/preparation.md
+      - cart/firmware_flashing.md
+      - cart/cartinstall.md
+      - cart/cartcalibrations.md
+      - cart/slicer_settings.md
+      - cart/update.md
+  - Beacon3D:
+      - beacon/beacon.md
+      - beacon/beacon_flashing.md
+  - BTT EDDY:
+      - btteddy/btteddy.md
+      - btteddy/btteddy_flashing.md
+      - btteddy/btteddy_duo_flashing.md
       - Experimental:
           - experimental/eddyng/eddyng.md
           - experimental/eddyng/eddyng_flashing.md
-      - BlTouch:
-          - bltouch/bltouch.md
-      - Microprobe:
-          - microprobe/microprobe.md
-      - Klicky:
+  - Mechanical Probes: mechprobe.md
+  - BlTouch:
+      - bltouch/bltouch.md
+  - Microprobe:
+      - microprobe/microprobe.md
+  - Klicky:
           - klicky/klicky.md
   - Extras:
       - extras/misc.md
