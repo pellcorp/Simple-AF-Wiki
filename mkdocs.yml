@@ -131,7 +131,7 @@ nav:
   - Cartographer3D: 
       - cart/preparation.md
       - cart/firmware_flashing.md
-      - cart/cartinstall.md
+      - cart/saf_install.md
       - cart/cartcalibrations.md
       - cart/slicer_settings.md
       - cart/update.md
